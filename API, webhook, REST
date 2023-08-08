@@ -1,0 +1,33 @@
+A webhook is an HTTP-based callback function that allows lightweight, event-driven communication between 2 application programming interfaces (APIs). Webhooks are used by a wide variety of web apps to receive small amounts of data from other apps
+
+To set up a webhook, the client gives a unique URL to the server API and specifies which event it wants to know about. Once the webhook is set up, the client no longer needs to poll the server; the server will automatically send the relevant payload to the client’s webhook URL when the specified event occurs. 
+
+Webhooks are often referred to as reverse APIs or push APIs, because they put the responsibility of communication on the server, rather than the client. Instead of the client sending HTTP requests—asking for data until the server responds—the server sends the client a single HTTP POST request as soon as the data is available. Despite their nicknames, webhooks are not APIs; they work together. An application must have an API to use a webhook. 
+
+“What is an API?” API is the acronym for application programming interface — a software intermediary that allows two applications to talk to each other. APIs are an accessible way to extract and share data within and across organizations.
+
+APIs are all around us. Every time you use a rideshare app, send a mobile payment, or change the thermostat temperature from your phone, you’re using an API. When you use one of the above apps, they connect to the Internet and send data to a server. The server then retrieves that data, interprets it, performs the necessary actions, and sends it back to your phone. The application then interprets that data and presents you with the information you wanted in a readable way. 
+REST API: a widely used architecture for building web services using HTTP methods like GET, POST, PUT, and DELETE format to interact with data resources. REST APIs typically return data in JSON or XML format
+
+API is a part of the software. A software application is comprised of APIs.
+
+Basically, an API is more like delegating your work which is an fine example of abstraction of Object Oriented Concept.
+
+For Example, You have a maid in your house who does the cleaning job, but for your colleague who visits your house, he thinks you keep your house clean, but actually you did the cleaning through your maid. Also you could keep a cook, Gardner, secretary, Babysitter, Legal adviser etc. Now this doesn't mean that you cannot do all these works, It is just that you have better things to worry about and accomplish better things.
+
+Similarly, In a software, you use APIs and accomplish a greater task.
+for example, You are building an mobile app which uses camera, data encryption, speakers, internet, GSM, GPS, Accelerometer, Gyroscope, animations etc.
+
+In order to build the application you don't have to worry about
+
+Hardware configuration of camera/ hardware level knowledge
+Implementing the encryption yourself by AES/DES etc
+In what data format you need to send data to speakers
+how to break data into packets and send over internet
+You need not know all GSM and GPS commands and how they work
+You need not know the physics of accelerometer & gyroscope and equations for it
+You need not write programs for animations
+
+Even without knowing all these things, you can build a great app by using APIs for all these things provided by Google(Android), Apple(iOS). You just have to call the APIs and get the job done.
+
+
